@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gallery · VOCA</title>
+  <meta name="description" content="Photos from VOCA picnics, Diwali, Saraswati Puja and festivals — and a window into Odisha." />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&family=Noto+Sans+Oriya:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-page="gallery">
+  <div id="site-header"></div>
+
+  <main>
+    <section class="page-hero">
+      <img class="page-hero-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Odissi_dance_at_Nishagandi_Dance_Festival_2024_%28207%29.jpg/1920px-Odissi_dance_at_Nishagandi_Dance_Festival_2024_%28207%29.jpg" alt="" aria-hidden="true" />
+      <div class="wrap page-hero-content">
+        <p class="kicker light" data-i18n="galKicker"></p>
+        <h1 data-i18n="galTitle"></h1>
+        <p data-i18n="galSub"></p>
+      </div>
+      <div class="ikat-band" aria-hidden="true"></div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="tabs" role="tablist">
+          <button role="tab" aria-selected="true" aria-controls="panel-community" data-i18n="tabCommunity"></button>
+          <button role="tab" aria-selected="false" aria-controls="panel-odisha" data-i18n="tabOdisha"></button>
+        </div>
+        <div role="tabpanel" id="panel-community">
+          <div class="album-grid" id="albums"></div>
+        </div>
+        <div role="tabpanel" id="panel-odisha" hidden>
+          <div class="filters" id="filters">
+            <button class="chip active" data-filter="all" data-i18n="fAll"></button>
+            <button class="chip" data-filter="heritage" data-i18n="fHeritage"></button>
+            <button class="chip" data-filter="festivals" data-i18n="fFestivals"></button>
+            <button class="chip" data-filter="arts" data-i18n="fArts"></button>
+            <button class="chip" data-filter="nature" data-i18n="fNature"></button>
+            <button class="chip" data-filter="food" data-i18n="fFood"></button>
+          </div>
+          <div class="gallery" id="gallery"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/odisha.js"></script>
+  <script src="assets/js/pages.js"></script>
+</body>
+</html>

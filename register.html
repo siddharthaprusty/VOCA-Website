@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Register · VOCA</title>
+  <meta name="description" content="Register as a member of the Vancouver Odia Cultural Association." />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&family=Noto+Sans+Oriya:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-page="register">
+  <div id="site-header"></div>
+
+  <main>
+    <section class="page-hero">
+      <img class="page-hero-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Raja_Doli_khela_Odia_festival.jpg/1920px-Raja_Doli_khela_Odia_festival.jpg" alt="" aria-hidden="true" />
+      <div class="wrap page-hero-content">
+        <p class="kicker light" data-i18n="regKicker"></p>
+        <h1 data-i18n="regTitle"></h1>
+        <p data-i18n="regSub"></p>
+      </div>
+      <div class="ikat-band" aria-hidden="true"></div>
+    </section>
+
+    <section class="section">
+      <div class="wrap form-layout">
+        <aside class="form-aside reveal">
+          <h2 data-i18n="benefitsTitle"></h2>
+          <ul class="benefits">
+            <li data-i18n="b1"></li><li data-i18n="b2"></li><li data-i18n="b3"></li><li data-i18n="b4"></li>
+          </ul>
+          <svg class="aside-wheel" viewBox="0 0 100 100" aria-hidden="true"><use href="#wheel" /></svg>
+        </aside>
+
+        <form class="form-card reveal" data-form="Membership registration" novalidate>
+          <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+          <fieldset>
+            <legend data-i18n="secAbout"></legend>
+            <div class="grid-2">
+              <label class="field"><span class="lbl"><span data-i18n="fFullName"></span> <em>*</em></span><input type="text" name="name" required autocomplete="name" /></label>
+              <label class="field"><span class="lbl"><span data-i18n="fEmail"></span> <em>*</em></span><input type="email" name="email" required autocomplete="email" /></label>
+              <label class="field"><span class="lbl"><span data-i18n="fPhone"></span></span><input type="tel" name="phone" autocomplete="tel" /></label>
+              <label class="field"><span class="lbl"><span data-i18n="fCity"></span> <em>*</em></span><select name="city" required><option value="" data-i18n="select"></option><option>Surrey</option><option>Vancouver</option><option>Burnaby</option><option>Richmond</option><option>Coquitlam</option><option>Delta</option><option>Langley</option><option>New Westminster</option><option>North Vancouver</option><option>Abbotsford</option><option value="Other" data-i18n="other"></option></select></label>
+            </div>
+            <div class="field"><span class="lbl"><span data-i18n="fConnection"></span></span>
+              <div class="check-pills"><label class="check-pill"><input type="radio" name="connection" value="Born in Odisha" /><span data-i18n="connBorn"></span></label><label class="check-pill"><input type="radio" name="connection" value="Odia heritage" /><span data-i18n="connHeritage"></span></label><label class="check-pill"><input type="radio" name="connection" value="Friend of Odia culture" /><span data-i18n="connFriend"></span></label></div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend data-i18n="secFamily"></legend>
+            <div class="field"><span class="lbl"><span data-i18n="fType"></span> <em>*</em></span>
+              <div class="check-pills"><label class="check-pill"><input type="radio" name="membership_type" value="Individual" required /><span data-i18n="typeIndividual"></span></label><label class="check-pill"><input type="radio" name="membership_type" value="Family" required /><span data-i18n="typeFamily"></span></label><label class="check-pill"><input type="radio" name="membership_type" value="Student" required /><span data-i18n="typeStudent"></span></label><label class="check-pill"><input type="radio" name="membership_type" value="Senior" required /><span data-i18n="typeSenior"></span></label></div>
+            </div>
+            <div class="grid-2">
+              <label class="field"><span class="lbl"><span data-i18n="fAdults"></span></span><input type="number" name="adults" min="1" max="20" value="1" /></label>
+              <label class="field"><span class="lbl"><span data-i18n="fChildren"></span></span><input type="number" name="children" min="0" max="20" value="0" /></label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend data-i18n="secInterests"></legend>
+            <div class="check-pills"><label class="check-pill"><input type="checkbox" name="interests" value="Cultural programs" /><span data-i18n="intCulture"></span></label><label class="check-pill"><input type="checkbox" name="interests" value="Odia language classes" /><span data-i18n="intLanguage"></span></label><label class="check-pill"><input type="checkbox" name="interests" value="Volunteering" /><span data-i18n="intVolunteer"></span></label><label class="check-pill"><input type="checkbox" name="interests" value="Sports &amp; picnics" /><span data-i18n="intSports"></span></label><label class="check-pill"><input type="checkbox" name="interests" value="Youth activities" /><span data-i18n="intYouth"></span></label><label class="check-pill"><input type="checkbox" name="interests" value="Cooking &amp; food" /><span data-i18n="intFood"></span></label></div>
+            <label class="field"><span class="lbl"><span data-i18n="fBio"></span></span><textarea name="bio" rows="4"></textarea></label>
+            <label class="field"><span class="lbl"><span data-i18n="fHear"></span></span><input type="text" name="heard_from" /></label>
+          </fieldset>
+
+          <fieldset>
+            <legend data-i18n="secConsent"></legend>
+            <label class="check-line"><input type="checkbox" name="list_in_directory" value="Yes" /><span data-i18n="fListMe"></span></label>
+            <label class="check-line"><input type="checkbox" name="newsletter" value="Yes" checked /><span data-i18n="fNews"></span></label>
+          </fieldset>
+
+          <button type="submit" class="btn btn-primary" data-i18n="regSubmit"></button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/odisha.js"></script>
+  <script src="assets/js/pages.js"></script>
+</body>
+</html>

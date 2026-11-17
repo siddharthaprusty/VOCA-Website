@@ -1,0 +1,39 @@
+{
+  "committee": [
+    { "role": { "en": "President", "or": "ସଭାପତି" }, "name": "", "photo": "" },
+    { "role": { "en": "Vice President", "or": "ଉପସଭାପତି" }, "name": "", "photo": "" },
+    { "role": { "en": "Secretary", "or": "ସମ୍ପାଦକ" }, "name": "", "photo": "" },
+    { "role": { "en": "Treasurer", "or": "କୋଷାଧ୍ୟକ୍ଷ" }, "name": "", "photo": "" },
+    { "role": { "en": "Cultural Secretary", "or": "ସାଂସ୍କୃତିକ ସମ୍ପାଦକ" }, "name": "", "photo": "" },
+    { "role": { "en": "Youth Coordinator", "or": "ଯୁବ ସଂଯୋଜକ" }, "name": "", "photo": "" }
+  ],
+  "members": [
+    {
+      "id": "example-family",
+      "example": true,
+      "name": "Example Family",
+      "city": "Surrey",
+      "since": 2024,
+      "type": "family",
+      "photo": "",
+      "family": "2 adults · 2 children",
+      "hometown": "Cuttack, Odisha",
+      "bio": "Replace this sample entry in data/members.json with real members who agreed to be listed.",
+      "interests": ["intCulture", "intLanguage", "intSports"],
+      "volunteers": ["aFood", "aKids"]
+    },
+    {
+      "id": "example-member",
+      "example": true,
+      "name": "Example Member",
+      "city": "Burnaby",
+      "since": 2025,
+      "type": "individual",
+      "photo": "",
+      "hometown": "Sambalpur, Odisha",
+      "bio": "Each member gets a profile page like this one.",
+      "interests": ["intCulture", "intVolunteer"],
+      "volunteers": ["aPhoto"]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "picnic",
+    "title": {
+      "en": "VOCA Picnic",
+      "or": "ଭୋକା ବଣଭୋଜି"
+    },
+    "date": "2026-07",
+    "photos": []
+  },
+  {
+    "id": "diwali",
+    "title": {
+      "en": "Diwali",
+      "or": "ଦୀପାବଳି"
+    },
+    "date": "2025-10",
+    "photos": []
+  },
+  {
+    "id": "saraswati-puja",
+    "title": {
+      "en": "Saraswati Puja",
+      "or": "ସରସ୍ୱତୀ ପୂଜା"
+    },
+    "date": "2026-01",
+    "photos": []
+  }
+]

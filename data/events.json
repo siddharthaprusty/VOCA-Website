@@ -1,0 +1,53 @@
+[
+  {
+    "id": "diwali-2026",
+    "date": "2026-11-08",
+    "time": "5:00 PM",
+    "tbc": true,
+    "title": { "en": "Diwali Milan", "or": "ଦୀପାବଳି ମିଳନ" },
+    "venue": { "en": "Surrey, BC — venue to be announced", "or": "ସରେ, ବି.ସି. — ସ୍ଥାନ ଘୋଷଣା ହେବ" },
+    "body": { "en": "An evening of diyas, rangoli, sweets and music with the whole VOCA family.", "or": "ଦୀପ, ରଙ୍ଗୋଲି, ମିଠା ଓ ସଙ୍ଗୀତ ସହ ସମଗ୍ର ଭୋକା ପରିବାରର ଏକ ସନ୍ଧ୍ୟା।" },
+    "album": "diwali"
+  },
+  {
+    "id": "kartika-2026",
+    "date": "2026-11-24",
+    "tbc": true,
+    "title": { "en": "Boita Bandana & Kartika Purnima", "or": "ବୋଇତ ବନ୍ଦାଣ ଓ କାର୍ତ୍ତିକ ପୂର୍ଣ୍ଣିମା" },
+    "venue": { "en": "Surrey, BC — venue to be announced", "or": "ସରେ, ବି.ସି. — ସ୍ଥାନ ଘୋଷଣା ହେବ" },
+    "body": { "en": "Float little boats and remember the Sadhabas — Odisha’s ancient sea-traders. Aa Ka Ma Bai!", "or": "ଛୋଟ ଡଙ୍ଗା ଭସାଇ ସାଧବଙ୍କୁ ସ୍ମରଣ କରନ୍ତୁ। ଆ କା ମା ବୈ!" }
+  },
+  {
+    "id": "saraswati-2027",
+    "date": "2027-02-11",
+    "tbc": true,
+    "title": { "en": "Saraswati Puja", "or": "ସରସ୍ୱତୀ ପୂଜା" },
+    "venue": { "en": "Surrey, BC — venue to be announced", "or": "ସରେ, ବି.ସି. — ସ୍ଥାନ ଘୋଷଣା ହେବ" },
+    "body": { "en": "Vasant Panchami prayers to the goddess of learning, with Khadi Chhuan (first letters) for little ones and a cultural program by the children.", "or": "ବିଦ୍ୟାଦେବୀଙ୍କ ପୂଜା, ଛୋଟ ପିଲାଙ୍କ ପାଇଁ ଖଡ଼ି ଛୁଆଁ ଓ ପିଲାଙ୍କ ସାଂସ୍କୃତିକ କାର୍ଯ୍ୟକ୍ରମ।" },
+    "album": "saraswati-puja"
+  },
+  {
+    "id": "utkal-2027",
+    "date": "2027-04-01",
+    "title": { "en": "Utkal Divas", "or": "ଉତ୍କଳ ଦିବସ" },
+    "venue": { "en": "Surrey, BC — venue to be announced", "or": "ସରେ, ବି.ସି. — ସ୍ଥାନ ଘୋଷଣା ହେବ" },
+    "body": { "en": "Celebrating Odisha Day with songs, poetry and a community potluck.", "or": "ଗୀତ, କବିତା ଓ ସାମୁଦାୟିକ ଭୋଜି ସହ ଉତ୍କଳ ଦିବସ ପାଳନ।" }
+  },
+  {
+    "id": "raja-2027",
+    "date": "2027-06-14",
+    "tbc": true,
+    "title": { "en": "Raja Parba", "or": "ରଜ ପର୍ବ" },
+    "venue": { "en": "Surrey, BC — venue to be announced", "or": "ସରେ, ବି.ସି. — ସ୍ଥାନ ଘୋଷଣା ହେବ" },
+    "body": { "en": "Swings, poda pitha, Raja songs and games — a celebration of womanhood and Mother Earth.", "or": "ଦୋଳି, ପୋଡ଼ ପିଠା, ରଜ ଗୀତ ଓ ଖେଳ — ନାରୀତ୍ୱ ଓ ଧରଣୀ ମାତାର ଉତ୍ସବ।" }
+  },
+  {
+    "id": "picnic-2027",
+    "date": "2027-07-24",
+    "tbc": true,
+    "title": { "en": "VOCA Summer Picnic", "or": "ଭୋକା ଗ୍ରୀଷ୍ମ ବଣଭୋଜି" },
+    "venue": { "en": "A park in Metro Vancouver — to be announced", "or": "ମେଟ୍ରୋ ଭାଙ୍କୁଭରର ଏକ ପାର୍କ — ଘୋଷଣା ହେବ" },
+    "body": { "en": "Games for all ages, cricket, antakshari and a big Odia lunch under the trees.", "or": "ସବୁ ବୟସ ପାଇଁ ଖେଳ, କ୍ରିକେଟ, ଅନ୍ତାକ୍ଷରୀ ଓ ଗଛ ତଳେ ବଡ଼ ଓଡ଼ିଆ ଭୋଜି।" },
+    "album": "picnic"
+  }
+]

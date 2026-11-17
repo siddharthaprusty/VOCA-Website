@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact · VOCA</title>
+  <meta name="description" content="Contact the Vancouver Odia Cultural Association in Surrey, BC." />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&family=Noto+Sans+Oriya:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-page="contact">
+  <div id="site-header"></div>
+
+  <main>
+    <section class="page-hero">
+      <img class="page-hero-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Birds_eyeview_of_Chilika_Lake.jpg/1920px-Birds_eyeview_of_Chilika_Lake.jpg" alt="" aria-hidden="true" />
+      <div class="wrap page-hero-content">
+        <p class="kicker light" data-i18n="contactKicker"></p>
+        <h1 data-i18n="contactTitle"></h1>
+        <p data-i18n="contactBody"></p>
+      </div>
+      <div class="ikat-band" aria-hidden="true"></div>
+    </section>
+
+    <section class="section">
+      <div class="wrap form-layout">
+        <aside class="form-aside reveal">
+          <ul class="contact-facts">
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-7.2 7-12a7 7 0 1 0-14 0c0 4.8 7 12 7 12Z" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="10" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><span data-i18n="location"></span></li>
+          </ul>
+          <iframe class="map" title="Map of Surrey, BC" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=Surrey,+BC,+Canada&z=11&output=embed"></iframe>
+        </aside>
+        <form class="form-card reveal" data-form="Contact" novalidate>
+          <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+          <div class="grid-2">
+            <label class="field"><span class="lbl"><span data-i18n="fName"></span> <em>*</em></span><input type="text" name="name" required autocomplete="name" /></label>
+            <label class="field"><span class="lbl"><span data-i18n="fEmail"></span> <em>*</em></span><input type="email" name="email" required autocomplete="email" /></label>
+          </div>
+          <label class="field"><span class="lbl"><span data-i18n="fSubject"></span></span><input type="text" name="subject" id="subject" /></label>
+          <label class="field"><span class="lbl"><span data-i18n="fMessage"></span> <em>*</em></span><textarea name="message" rows="4" required></textarea></label>
+          <button type="submit" class="btn btn-primary" data-i18n="fSend"></button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/odisha.js"></script>
+  <script src="assets/js/pages.js"></script>
+</body>
+</html>
